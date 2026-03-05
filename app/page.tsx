@@ -9,6 +9,43 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  title: "Apartamento en arriendo en Fontibón Rionegro | 1 habitación | Cerca al aeropuerto",
+  description:
+    "Apartamento en arriendo en Olivar Apartamentos, sector Fontibón, Rionegro, Antioquia. 55 m², 1 habitación con vestier, 2 baños, parqueadero cubierto. Conjunto con piscina, sauna y coworking. $1.750.000/mes. Administración incluida. Sin depósito. Mascotas permitidas.",
+  keywords: [
+    "apartamento en arriendo rionegro",
+    "arriendo fontibon rionegro",
+    "apartamento cerca aeropuerto rionegro",
+    "apartamento en arriendo antioquia",
+    "arriendo rionegro antioquia",
+    "olivar apartamentos rionegro",
+    "apartamento 1 habitacion rionegro",
+    "arriendo sin deposito rionegro",
+  ],
+  openGraph: {
+    title: "Apartamento en arriendo en Fontibón Rionegro | 1 habitación | Cerca al aeropuerto",
+    description:
+      "55 m², 1 habitación, 2 baños, parqueadero cubierto. Conjunto con piscina, sauna y coworking. $1.750.000/mes. Administración incluida. Sin depósito.",
+    url: "https://olivar-arriendo.vercel.app/",
+    type: "website",
+    locale: "es_CO",
+    siteName: "Olivar Apartamentos Rionegro",
+    images: [
+      {
+        url: "/images/comedor_cocina_sillas.png",
+        width: 1200,
+        height: 630,
+        alt: "Apartamento en arriendo Olivar Fontibón Rionegro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartamento en arriendo en Fontibón Rionegro | $1.750.000/mes",
+    description:
+      "55 m², 1 habitación, 2 baños, parqueadero cubierto. Administración incluida. Sin depósito. Mascotas permitidas.",
+    images: ["/images/comedor_cocina_sillas.png"],
+  },
 };
 
 const jsonLd = {

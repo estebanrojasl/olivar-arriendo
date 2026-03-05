@@ -5,10 +5,41 @@ import { whatsappUrl } from "@/components/WhatsAppButton";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Apartamento Cerca al Aeropuerto de Rionegro | Olivar Apartamentos",
+  title: "Apartamento Cerca al Aeropuerto de Rionegro | A 10 min del JMC",
   description:
-    "Apartamento en arriendo a 10 minutos del Aeropuerto Internacional José María Córdova, Rionegro. 55 m², 1 habitación, 2 baños, conjunto con piscina. $1.750.000/mes todo incluido.",
+    "Apartamento en arriendo a 10 minutos del Aeropuerto Internacional José María Córdova, Rionegro. 55 m², 1 habitación, 2 baños, parqueadero cubierto y conjunto con piscina. $1.750.000/mes con administración incluida.",
+  keywords: [
+    "apartamento cerca aeropuerto rionegro",
+    "arriendo cerca aeropuerto jose maria cordova",
+    "apartamento cerca aeropuerto antioquia",
+    "vivienda cerca aeropuerto rionegro",
+    "arriendo fontibon rionegro aeropuerto",
+  ],
   alternates: { canonical: "/apartamento-cerca-aeropuerto-rionegro" },
+  openGraph: {
+    title: "Apartamento Cerca al Aeropuerto de Rionegro | A 10 min del JMC",
+    description:
+      "A 10 min del Aeropuerto José María Córdova. 55 m², 1 habitación, piscina, sauna. $1.750.000/mes. Administración incluida. Sin depósito.",
+    url: "https://olivar-arriendo.vercel.app/apartamento-cerca-aeropuerto-rionegro",
+    type: "article",
+    locale: "es_CO",
+    siteName: "Olivar Apartamentos Rionegro",
+    images: [
+      {
+        url: "/images/zonas_comunes_piscina.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Piscina conjunto Olivar Apartamentos Rionegro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartamento Cerca al Aeropuerto de Rionegro | A 10 min del JMC",
+    description:
+      "A 10 min del aeropuerto JMC. Piscina, sauna. $1.750.000/mes. Sin depósito. Mascotas permitidas.",
+    images: ["/images/zonas_comunes_piscina.jpg"],
+  },
 };
 
 export default function ApartamentoCercaAeropuerto() {

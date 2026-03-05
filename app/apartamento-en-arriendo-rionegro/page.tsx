@@ -7,8 +7,40 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata: Metadata = {
   title: "Apartamento en Arriendo en Rionegro, Antioquia | Olivar Apartamentos",
   description:
-    "¿Buscas un apartamento en arriendo en Rionegro? Conoce Olivar Apartamentos en el sector Fontibón: 55 m², 1 habitación, 2 baños, parqueadero cubierto y conjunto cerrado con piscina. Desde $1.750.000/mes.",
+    "¿Buscas un apartamento en arriendo en Rionegro? Olivar Apartamentos en Fontibón: 55 m², 1 habitación, 2 baños, parqueadero cubierto, piscina, sauna. $1.750.000/mes con administración incluida. Sin depósito.",
+  keywords: [
+    "apartamento en arriendo rionegro",
+    "arriendo rionegro antioquia",
+    "apartamento rionegro fontibon",
+    "arriendo fontibon rionegro",
+    "apartamento sin deposito rionegro",
+    "arriendo con mascotas rionegro",
+  ],
   alternates: { canonical: "/apartamento-en-arriendo-rionegro" },
+  openGraph: {
+    title: "Apartamento en Arriendo en Rionegro, Antioquia | Olivar Apartamentos",
+    description:
+      "55 m², 1 habitación, 2 baños, parqueadero cubierto. Conjunto con piscina y sauna. $1.750.000/mes. Administración incluida. Sin depósito.",
+    url: "https://olivar-arriendo.vercel.app/apartamento-en-arriendo-rionegro",
+    type: "article",
+    locale: "es_CO",
+    siteName: "Olivar Apartamentos Rionegro",
+    images: [
+      {
+        url: "/images/habitacion_ppal_cama.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Habitación principal apartamento Olivar Rionegro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartamento en Arriendo en Rionegro, Antioquia",
+    description:
+      "55 m², 1 habitación, piscina, sauna. $1.750.000/mes. Sin depósito. Mascotas permitidas.",
+    images: ["/images/habitacion_ppal_cama.jpg"],
+  },
 };
 
 export default function ApartamentoRionegro() {

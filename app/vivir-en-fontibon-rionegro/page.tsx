@@ -5,10 +5,42 @@ import { whatsappUrl } from "@/components/WhatsAppButton";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Vivir en Fontibón Rionegro | Sector, Ventajas y Apartamento en Arriendo",
+  title: "Vivir en Fontibón Rionegro | Ventajas del Sector y Apartamento en Arriendo",
   description:
-    "Descubre por qué el sector Fontibón en Rionegro es una excelente opción para vivir. Acceso al aeropuerto, transporte, comercio y naturaleza. Apartamento disponible desde $1.750.000/mes.",
+    "Descubre por qué vivir en Fontibón, Rionegro es una excelente decisión. Cerca al aeropuerto, CC San Nicolás, hospitales y transporte. Apartamento disponible: 55 m², $1.750.000/mes con administración incluida.",
+  keywords: [
+    "vivir en fontibon rionegro",
+    "fontibon rionegro antioquia",
+    "sector fontibon rionegro",
+    "apartamento fontibon rionegro",
+    "arriendo fontibon rionegro",
+    "vivir en rionegro antioquia",
+  ],
   alternates: { canonical: "/vivir-en-fontibon-rionegro" },
+  openGraph: {
+    title: "Vivir en Fontibón Rionegro | Ventajas del Sector y Apartamento en Arriendo",
+    description:
+      "Fontibón, Rionegro: cerca al aeropuerto, CC San Nicolás y transporte público. Apartamento 55 m², $1.750.000/mes. Sin depósito.",
+    url: "https://olivar-arriendo.vercel.app/vivir-en-fontibon-rionegro",
+    type: "article",
+    locale: "es_CO",
+    siteName: "Olivar Apartamentos Rionegro",
+    images: [
+      {
+        url: "/images/sala_balcon.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sala y balcón apartamento Olivar Fontibón Rionegro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vivir en Fontibón Rionegro | Apartamento en Arriendo",
+    description:
+      "Sector Fontibón, Rionegro. Cerca al aeropuerto y al centro. 55 m², $1.750.000/mes. Sin depósito.",
+    images: ["/images/sala_balcon.jpg"],
+  },
 };
 
 export default function VivirEnFontibon() {
