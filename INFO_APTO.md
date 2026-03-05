@@ -70,6 +70,7 @@ Ventajas del sector
 
 ☐ Nombre del edificio o conjunto residencial: Olivar apartamentos
 ☐ Referencia cercana: Sector Fontibón
+☐ Coordenadas Plus Code: 5J7G+74 Rionegro, Antioquia
 ☐ Distancia aproximada a lugares clave:
 
 - Aeropuerto José María Córdova: 10 min
@@ -84,7 +85,7 @@ Ventajas del sector
 
 ## 4. Fotos
 
-20 fotos incluidas referenciando el lugar del apto en el nombre del archivo en ./fotos, mover a otra carpeta si es necesario
+20 fotos incluidas referenciando el lugar del apto en el nombre del archivo en /fotos, mover a otra carpeta si es necesario
 
 ---
 
