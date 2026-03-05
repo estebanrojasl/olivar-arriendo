@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { trackGalleryOpen } from "@/lib/gtag";
 
 const images = [
   { src: "/images/cocina_sala_1.jpeg", alt: "Sala y cocina" },
@@ -39,7 +40,7 @@ export default function Gallery() {
           {images.map((img, i) => (
             <button
               key={i}
-              onClick={() => setSelected(i)}
+              onClick={() => { setSelected(i); trackGalleryOpen(img.alt); }}
               className="relative aspect-square overflow-hidden rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500"
             >
               <Image

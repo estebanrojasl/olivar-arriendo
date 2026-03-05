@@ -1,5 +1,7 @@
 "use client";
 
+import { trackWhatsAppClick } from "@/lib/gtag";
+
 const WHATSAPP_NUMBER = "573012513127";
 const WHATSAPP_MESSAGE =
   "Hola%20vi%20el%20apartamento%20en%20Fontib%C3%B3n%20Rionegro%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n";
@@ -13,6 +15,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
+      onClick={() => trackWhatsAppClick("floating_button")}
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-3 rounded-full shadow-lg transition-all duration-200 hover:scale-105"
     >
       <svg

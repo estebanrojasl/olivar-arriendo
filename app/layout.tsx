@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -55,7 +56,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-sans antialiased bg-white text-gray-900">{children}</body>
+      <body className="font-sans antialiased bg-white text-gray-900">
+        <GoogleAnalytics />
+        {children}
+      </body>
     </html>
   );
 }
