@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Apartamento Cerca al Aeropuerto de Rionegro | A 10 min del JMC",
     description:
       "A 10 min del Aeropuerto José María Córdova. 55 m², 1 habitación, piscina, sauna. $1.750.000/mes. Administración incluida. Sin depósito.",
-    url: "https://olivar-arriendo.vercel.app/apartamento-cerca-aeropuerto-rionegro",
+    url: "https://arriendo-rionegro.com/apartamento-cerca-aeropuerto-rionegro",
     type: "article",
     locale: "es_CO",
     siteName: "Olivar Apartamentos Rionegro",

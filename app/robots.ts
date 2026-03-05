@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://olivar-arriendo.vercel.app/sitemap.xml",
+    sitemap: "https://arriendo-rionegro.com/sitemap.xml",
   };
 }

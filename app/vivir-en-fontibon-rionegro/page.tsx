@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Vivir en Fontibón Rionegro | Ventajas del Sector y Apartamento en Arriendo",
     description:
       "Fontibón, Rionegro: cerca al aeropuerto, CC San Nicolás y transporte público. Apartamento 55 m², $1.750.000/mes. Sin depósito.",
-    url: "https://olivar-arriendo.vercel.app/vivir-en-fontibon-rionegro",
+    url: "https://arriendo-rionegro.com/vivir-en-fontibon-rionegro",
     type: "article",
     locale: "es_CO",
     siteName: "Olivar Apartamentos Rionegro",

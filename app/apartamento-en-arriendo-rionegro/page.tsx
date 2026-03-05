@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Apartamento en Arriendo en Rionegro, Antioquia | Olivar Apartamentos",
     description:
       "55 m², 1 habitación, 2 baños, parqueadero cubierto. Conjunto con piscina y sauna. $1.750.000/mes. Administración incluida. Sin depósito.",
-    url: "https://olivar-arriendo.vercel.app/apartamento-en-arriendo-rionegro",
+    url: "https://arriendo-rionegro.com/apartamento-en-arriendo-rionegro",
     type: "article",
     locale: "es_CO",
     siteName: "Olivar Apartamentos Rionegro",

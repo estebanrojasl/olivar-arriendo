@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Apartamento en arriendo en Fontibón Rionegro | 1 habitación | Cerca al aeropuerto",
     description:
       "55 m², 1 habitación, 2 baños, parqueadero cubierto. Conjunto con piscina, sauna y coworking. $1.750.000/mes. Administración incluida. Sin depósito.",
-    url: "https://olivar-arriendo.vercel.app/",
+    url: "https://arriendo-rionegro.com/",
     type: "website",
     locale: "es_CO",
     siteName: "Olivar Apartamentos Rionegro",
@@ -54,7 +54,7 @@ const jsonLd = {
   name: "Apartamento en arriendo en Fontibón Rionegro – Olivar Apartamentos",
   description:
     "Apartamento en arriendo en Olivar Apartamentos, sector Fontibón, Rionegro, Antioquia. 55 m², 1 habitación con vestier, 2 baños, parqueadero cubierto. Conjunto con piscina, sauna, coworking y más.",
-  url: "https://olivar-arriendo.vercel.app/",
+  url: "https://arriendo-rionegro.com/",
   image: [
     "/images/cocina_sala_1.jpeg",
     "/images/habitacion_ppal_cama.jpg",

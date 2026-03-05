@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://olivar-arriendo.vercel.app"),
+  metadataBase: new URL("https://arriendo-rionegro.com"),
   icons: {
     icon: "/favicon.ico",
   },
